@@ -7,7 +7,7 @@ It is recommended to use the univeral tracker APWorld alongside this APWorld to 
 - The manual client APworld
 - The game Kirby Mass Attack on the Nintedo DS
 - A save file with every level unlocked
--  
+  
 ## What is the goal
 The goal is to defeat the final boss in Necro Nebula.
 He can be defeated only when you have collected enough Rainbow Medal to unlock the final world
