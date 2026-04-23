@@ -1,29 +1,36 @@
-# Manual for Archipelago
+# Kirby Mass Attack Manual for Archipelago
 
-Manual is a customizable APWorld template for [Archipelago](https://github.com/ArchipelagoMW/Archipelago) that can be applied to any game. 
+This is a manual archipelago implementation for the game Kirby Mass Attack on the Nintendo DS.
+It is recommended to use the univeral tracker APWorld alongside this APWorld to easily show which locations are in logic.
 
-You tell it what locations you want to be able to check and what items you want randomized, and it gets rolled into a multiworld as normal. Using the ManualClient program, you can manually check off locations that you've checked, and the client will tell you what items you now have access to use. **Limiting what items you use is done manually by you until you see the item in the list.** The victory condition is also up to you and, once you've completed it, there's a "Victory!" location at the bottom of the location list that you can click to end your seed.
+## What is needed
+- The manual client APworld
+- The game Kirby Mass Attack on the Nintedo DS
+- A save file with every level unlocked
+-  
+## What is the goal
+The goal is to defeat the final boss in Necro Nebula.
+He can be defeated only when you have collected enough Rainbow Medal to unlock the final world
+You also need 10 kirbys to start the level
 
-Some people call it "the honor system"!
+## What is Randomized
+The starting world can be randomized.
+Each world is divided into rings and to access the stages on each ring you will need a rainbow bubble of that world.
+You can identify how many rainbow bubbles are needed by travelling to a world and looking at how many rainbows are traversed by the kirby on the world map a stage is selected
+Each world is also locked behind an item that need to be collected
+Some abiliites are randomized, this includes:
+- the amount of kirby you can have
+- the ability to pickup keys
+- the ability to pickup skull keys
+- the ability to revive dead kirbys
+- the ability to heal injured kirbys
+- the ability to use shortcuts
+- the ability to use Jumbo Candies
 
-## Learn More
-For more information about Manual, please see our [Documentation](docs/README.md).
-
-## Asking for Help
-We have a [support channel in our community Discord](https://discord.com/channels/1097532591650910289/1098306155492687892)!
-
-## Reporting Bugs
-We primarily track bugs with the Manual project in [our community Discord's bug reports forum](https://discord.com/channels/1097532591650910289/1233529152615743508). 
-
-## Contributing
-As an open-source project powered by volunteers, we're always grateful for volunteer contributions!
-
-- If you'd like to contribute code or documentation, please submit pull requests to this project or any related Manual project.
-- If you'd like to contribute to our community, join [our community Discord here](https://discord.gg/T5bcsVHByx). We're always looking for more staff and general help.
-
-**Please note:** All contributions fall under the MIT License of the Manual project and its related projects, and will be made available to the public and maintained by the Manual project accordingly.
+## What are the locations
+Every medal is a location and every level completed is a location
 
 ## Disclaimer
-Manual is a fan project for use with the Archipelago multiworld project. 
+This is a fan project for use with the Archipelago multiworld project. 
 
-Manual is not affiliated with or endorsed by the Archipelago project in any way.
+This project is not affiliated with or endorsed by the Archipelago project ot the Manual Archipelago project in any way.
